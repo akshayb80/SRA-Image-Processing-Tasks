@@ -21,9 +21,9 @@ The Kernel filters are doing the following tasks:
 ![Original Image](https://user-images.githubusercontent.com/64036185/92143212-8ed01b00-ee32-11ea-8315-c57b111ce552.png)
 
 **Output**
-|<img width="446" height="447" src="https://user-images.githubusercontent.com/64036185/92143502-02722800-ee33-11ea-8d6b-4beadc75b49d.png">|<img width="446" height="447" src="https://user-images.githubusercontent.com/64036185/92143616-26356e00-ee33-11ea-948c-722640dafbdb.png">|<img width="446" height="447" src="https://user-images.githubusercontent.com/64036185/92143745-52e98580-ee33-11ea-95d5-4f36d457fc10.png">|<img width="446" height="447" src="https://user-images.githubusercontent.com/64036185/92143827-6f85bd80-ee33-11ea-831d-e9a08b36d204.png">
-|:---:|:---:|:---:|:---:|
-|Normal Blur|Box Filter|Gaussian Filter|Sharpen|
+|<img width="446" height="447" src="https://user-images.githubusercontent.com/64036185/92143616-26356e00-ee33-11ea-948c-722640dafbdb.png">|<img width="446" height="447" src="https://user-images.githubusercontent.com/64036185/92143745-52e98580-ee33-11ea-95d5-4f36d457fc10.png">|<img width="446" height="447" src="https://user-images.githubusercontent.com/64036185/92143827-6f85bd80-ee33-11ea-831d-e9a08b36d204.png">
+|:---:|:---:|:---:|
+|Box Filter|Gaussian Filter|Sharpen|
 
 
 
