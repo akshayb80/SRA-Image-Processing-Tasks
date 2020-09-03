@@ -1,6 +1,6 @@
 ## :computer: Image Processing Tasks 
 
-These tasks are performed without using any Python libraries. The only libraries used are Numpy & PIL
+These tasks are performed without using inbuilt Python libraries. The only libraries used are Numpy & PIL
 
 ---
 ### :city_sunset: Image Rotation
