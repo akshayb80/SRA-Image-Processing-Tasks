@@ -25,5 +25,19 @@ The Kernel filters are doing the following tasks:
 |:---:|:---:|:---:|
 |Box Filter|Gaussian Filter|Sharpen|
 
+### :city_sunset: Edge Detection
+
+**Original Images**
+
+![Cube](https://user-images.githubusercontent.com/64036185/92311996-1c9a3a80-efda-11ea-933c-aa736515b5af.jpg)
+
+![Dog](https://user-images.githubusercontent.com/64036185/92312000-3045a100-efda-11ea-94e9-35a21ea14d18.png)
+
+**Output**
+
+|<img width="208" height="203" src="https://user-images.githubusercontent.com/64036185/92312033-a8ac6200-efda-11ea-86b2-1f3db1b96094.png">|<img width="208" height="203" src="https://user-images.githubusercontent.com/64036185/92312045-c679c700-efda-11ea-8ac1-ca712ed6ae4a.png">|<img width="208" height="203" src="https://user-images.githubusercontent.com/64036185/92312054-d98c9700-efda-11ea-8af6-5acf3981e815.png">
+|:---:|:---:|:---:|
+|Vertical Edge|Horizontal Edge|Sobel|
+
 
 
