@@ -44,4 +44,7 @@ The Kernel filters are doing the following tasks:
 |:---:|:---:|:---:|
 |Vertical Edge|Horizontal Edge|Sobel|
 
+|<img width="208" height="203" src="https://user-images.githubusercontent.com/64036185/92312347-68021800-efdd-11ea-918f-71c0e638f9c2.jpg">|<img width="208" height="203" src="https://user-images.githubusercontent.com/64036185/92312364-836d2300-efdd-11ea-87b3-c6b7c0e6470c.jpg">
+|:---:|:---:|
+|Cube Canny|Dog Canny|
 
