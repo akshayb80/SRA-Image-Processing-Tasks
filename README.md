@@ -40,7 +40,7 @@ The Kernel filters are doing the following tasks:
 |:---:|:---:|:---:|
 |Vertical Edge|Horizontal Edge|Sobel|
 
-|<img width="208" height="203" src="hhttps://user-images.githubusercontent.com/64036185/92312236-756ad280-efdc-11ea-82d1-7afa63d596b1.png">|<img width="208" height="203" src="https://user-images.githubusercontent.com/64036185/92312243-874c7580-efdc-11ea-8983-1cc1474e8d2e.png">|<img width="208" height="203" src="https://user-images.githubusercontent.com/64036185/92312246-9501fb00-efdc-11ea-9c1c-559c9d598ffd.png">
+|<img width="208" height="203" src="https://user-images.githubusercontent.com/64036185/92312276-dc888700-efdc-11ea-90e9-2e12632c3c73.png">|<img width="208" height="203" src="https://user-images.githubusercontent.com/64036185/92312243-874c7580-efdc-11ea-8983-1cc1474e8d2e.png">|<img width="208" height="203" src="https://user-images.githubusercontent.com/64036185/92312246-9501fb00-efdc-11ea-9c1c-559c9d598ffd.png">
 |:---:|:---:|:---:|
 |Vertical Edge|Horizontal Edge|Sobel|
 
