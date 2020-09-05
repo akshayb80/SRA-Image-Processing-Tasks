@@ -9,8 +9,9 @@ The image is rotated by angles which are multiples of 90 degrees
   
 ![Original Image](https://user-images.githubusercontent.com/64036185/92142268-32203080-ee31-11ea-9c30-9fa8f51d3b74.png) 
 
-![270 Degrees Clockwise](https://user-images.githubusercontent.com/64036185/92142385-5d0a8480-ee31-11ea-84e4-23cd69a9b345.png)
-
+|<img width="300" height="300" src="https://user-images.githubusercontent.com/64036185/92142385-5d0a8480-ee31-11ea-84e4-23cd69a9b345.png">|
+|:---:|
+|270 Degrees Clockwise|
 
 ### :sunrise: Applying Kernels
 
