@@ -5,7 +5,7 @@ These tasks are performed without using inbuilt Python libraries. The only libra
 ---
 ### :city_sunset: Image Rotation
 
-The image is rotated by angles which are multiples of 90 degrees
+The image is rotated by angles which are multiples of 90 degrees. It involves finding the center of the Matrix and shifting along the center using rotation matrix.
   
 ![Original Image](https://user-images.githubusercontent.com/64036185/92142268-32203080-ee31-11ea-9c30-9fa8f51d3b74.png) 
 
@@ -15,6 +15,12 @@ The image is rotated by angles which are multiples of 90 degrees
 |90 Degrees Clockwise|270 Degrees Clockwise|
 
 ### :sunrise: Applying Kernels
+
+An image kernel is a small matrix used to apply effects like the ones we might find in Photoshop or Gimp, such as blurring, sharpening, outlining or embossing. They're also used in machine learning for 'feature extraction', a technique for determining the most important portions of an image. In this context the process is referred to more generally as "convolution".
+
+We use a 3x3 or 5x5 kernel. For each 3x3 block of pixels in the image, we multiply each pixel by the corresponding entry of the kernel and then take the sum.
+
+You can visit [here](https://setosa.io/ev/image-kernels/) for more information.
 
 The Kernel filters are doing the following tasks:
 1. Blurring (Normal Blur, Box Blur & Gaussian Blur)
@@ -28,6 +34,17 @@ The Kernel filters are doing the following tasks:
 |Box Filter|Gaussian Filter|Sharpen|
 
 ### :city_sunset: Edge Detection
+
+Edge detection is an image processing technique for finding the boundaries of objects within images. It works by detecting discontinuities in brightness. Edge detection is used for image segmentation and data extraction in areas such as image processing, computer vision, and machine vision.
+
+More information can be found [here](https://towardsdatascience.com/edge-detection-in-python-a3c263a13e03)
+
+Following Edge Detections are applied:
+
+    1. Vertical Edge Detection
+    2. Horizontal Edge Detection
+    3. Sobel Edge Detection
+    4. Canny Edge Detection
 
 **Original Images**
 
@@ -49,3 +66,30 @@ The Kernel filters are doing the following tasks:
 |:---:|:---:|
 |Cube Canny|Dog Canny|
 
+### :city_sunset: Morphological Transformation
+
+Morphological transformations are some simple operations based on the image shape. It is normally performed on binary images. It needs two inputs, one is our original image, second one is called structuring element or kernel which decides the nature of operation. Two basic morphological operators are Erosion and Dilation. 
+
+Applying dilation and erosion transformation to the image
+
+**Output**
+
+|<img width="112" height="150" src="https://user-images.githubusercontent.com/64036185/93011018-4d690980-f5b0-11ea-8168-08acd58bd1f2.png">|<img width="112" height="150" src="https://user-images.githubusercontent.com/64036185/93011036-670a5100-f5b0-11ea-9a91-3be72e4fa241.png">|<img width="112" height="150" src="https://user-images.githubusercontent.com/64036185/93011042-79848a80-f5b0-11ea-89a4-5661df4730ae.png">|<img width="112" height="150" src="https://user-images.githubusercontent.com/64036185/93011063-a173ee00-f5b0-11ea-9edf-b446a5035966.jpg">
+|:---:|:---:|:---:|:---:|
+|Input Image|Dilation|Erosion|Edge Detection|
+
+### :city_sunset: Masking
+
+Masking is an image processing method in which we define a small 'image piece' and use it to modify a larger image. Masking is the process that is underneath many types of image processing, including edge detection, motion detection, and noise reduction. To show only blue ball a mask has been applied to the following input image
+
+|<img width="600" height="396" src="https://user-images.githubusercontent.com/64036185/93011170-881f7180-f5b1-11ea-92d6-880b90c759f8.jpg">|<img width="600" height="396" src="https://user-images.githubusercontent.com/64036185/93011179-9e2d3200-f5b1-11ea-854e-f2c43ea8c386.jpeg">
+|:---:|:---:|
+|Input Image|Masked Image|
+
+### :city_sunset: ROI
+
+A region of interest (ROI) is a portion of an image that you want to filter or perform some other operation on. You define an ROI by creating a binary mask, which is a binary image that is the same size as the image you want to process with pixels that define the ROI set to 1 and all other pixels set to 0.
+
+|<img width="600" height="396" src="https://user-images.githubusercontent.com/64036185/93011235-28759600-f5b2-11ea-8665-00a887f3ea12.jpg">|<img width="600" height="396" src="https://user-images.githubusercontent.com/64036185/93011246-3a573900-f5b2-11ea-80ad-a11b683924cd.jpeg">
+|:---:|:---:|
+|Input Image|Output Image|
